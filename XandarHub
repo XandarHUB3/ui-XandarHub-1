@@ -2,4 +2,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("XandarHub", "DarkTheme")
 
 local Tab = Window:NewTab("Fish")
-local Section = Tab:NewSection("Auto click")
+local Section = Tab:NewSection("Fish")
+
+Section:NewButton("Auto click", "XandarHub", function()
+    print("Clicked")
+end)
